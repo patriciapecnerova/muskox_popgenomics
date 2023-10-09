@@ -1,0 +1,252 @@
+ref: muskox_pseudohap.gapcloser.v1.lenchecked.fasta
+allele_support:
+- '3'
+beds:
+  all_filters: whitelist.bed
+depths:
+  'EL-012':
+    - 8
+    - 26
+  'AH-1':
+    - 10
+    - 22
+  'AI-1':
+    - 10
+    - 26
+  'BI-1':
+    - 10
+    - 20
+  'BI-26':
+    - 10
+    - 21
+  'BI-28':
+    - 10
+    - 24
+  'BI-32':
+    - 10
+    - 21
+  'BI-35':
+    - 10
+    - 25
+  'BI-36':
+    - 10
+    - 25
+  'BL-10':
+    - 10
+    - 25
+  'BL-11':
+    - 10
+    - 28
+  'BL-13':
+    - 10
+    - 25
+  'BL-15':
+    - 10
+    - 20
+  'BL-17':
+    - 10
+    - 23
+  'BL-1':
+    - 10
+    - 19
+  'BL-20':
+    - 10
+    - 28
+  'BL-2':
+    - 10
+    - 22
+  'BL-23':
+    - 10
+    - 21
+  'BL-24':
+    - 10
+    - 29
+  'BL-4':
+    - 10
+    - 21
+  'BL-6':
+    - 10
+    - 23
+  'CH-3':
+    - 10
+    - 20
+  'CH-7':
+    - 10
+    - 28
+  'CI-8':
+    - 10
+    - 23
+  'CM-1':
+    - 10
+    - 24
+  'CM-2':
+    - 10
+    - 25
+  'EI-23':
+    - 10
+    - 20
+  'EI-28':
+    - 10
+    - 21
+  'EU-7':
+    - 10
+    - 21
+  'HD-1':
+    - 10
+    - 30
+  'HD-2':
+    - 10
+    - 33
+  'HD-3':
+    - 10
+    - 57
+  'HD-5':
+    - 10
+    - 53
+  'JA-1':
+    - 10
+    - 20
+  'JA-4':
+    - 10
+    - 19
+  'KU-11':
+    - 10
+    - 22
+  'KU-12':
+    - 10
+    - 20
+  'KU-13':
+    - 10
+    - 23
+  'KU-21':
+    - 10
+    - 19
+  'KU-23':
+    - 10
+    - 22
+  'KU-2':
+    - 10
+    - 20
+  'KU-27':
+    - 10
+    - 21
+  'KU-31':
+    - 10
+    - 19
+  'KU-32':
+    - 10
+    - 21
+  'KU-39':
+    - 10
+    - 23
+  'KU-4':
+    - 10
+    - 21
+  'MO25':
+    - 10
+    - 22
+  'MO28':
+    - 10
+    - 22
+  'MO29':
+    - 10
+    - 20
+  'MO32':
+    - 10
+    - 20
+  'MO33':
+    - 10
+    - 21
+  'MO34':
+    - 10
+    - 25
+  'MO35':
+    - 10
+    - 23
+  'MO42':
+    - 10
+    - 20
+  'MO46':
+    - 10
+    - 20
+  'MO49':
+    - 10
+    - 20
+  'MO50':
+    - 10
+    - 25
+  'RY-3':
+    - 10
+    - 23
+  'SF-1':
+    - 10
+    - 26
+  'SF-3':
+    - 10
+    - 22
+  'TH-27':
+    - 10
+    - 20
+outmain: results
+samples:
+  'EL-012': variantCall/results/vcf_highcov_filtered/EL012_merged_snps_highcov_10_3_strictSib_rename_withSheep_muskoxsites_diallelic.bcf.gz
+  'AH-1': variantCall/results/vcf_filtered/AH-1_10_3.bcf.gz
+  'AI-1': variantCall/results/vcf_filtered/AI-1_10_3.bcf.gz
+  'BI-1': variantCall/results/vcf_filtered/BI-1_10_3.bcf.gz
+  'BI-26': variantCall/results/vcf_filtered/BI-26_10_3.bcf.gz
+  'BI-28': variantCall/results/vcf_filtered/BI-28_10_3.bcf.gz
+  'BI-32': variantCall/results/vcf_filtered/BI-32_10_3.bcf.gz
+  'BI-35': variantCall/results/vcf_filtered/BI-35_10_3.bcf.gz
+  'BI-36': variantCall/results/vcf_filtered/BI-36_10_3.bcf.gz
+  'BL-10': variantCall/results/vcf_filtered/BL-10_10_3.bcf.gz
+  'BL-1': variantCall/results/vcf_filtered/BL-1_10_3.bcf.gz
+  'BL-11': variantCall/results/vcf_filtered/BL-11_10_3.bcf.gz
+  'BL-13': variantCall/results/vcf_filtered/BL-13_10_3.bcf.gz
+  'BL-15': variantCall/results/vcf_filtered/BL-15_10_3.bcf.gz
+  'BL-17': variantCall/results/vcf_filtered/BL-17_10_3.bcf.gz
+  'BL-20': variantCall/results/vcf_filtered/BL-20_10_3.bcf.gz
+  'BL-2': variantCall/results/vcf_filtered/BL-2_10_3.bcf.gz
+  'BL-23': variantCall/results/vcf_filtered/BL-23_10_3.bcf.gz
+  'BL-24': variantCall/results/vcf_filtered/BL-24_10_3.bcf.gz
+  'BL-4': variantCall/results/vcf_filtered/BL-4_10_3.bcf.gz
+  'BL-6': variantCall/results/vcf_filtered/BL-6_10_3.bcf.gz
+  'CH-3': variantCall/results/vcf_filtered/CH-3_10_3.bcf.gz
+  'CH-7': variantCall/results/vcf_filtered/CH-7_10_3.bcf.gz
+  'CI-8': variantCall/results/vcf_filtered/CI-8_10_3.bcf.gz
+  'CM-1': variantCall/results/vcf_filtered/CM-1_10_3.bcf.gz
+  'CM-2': variantCall/results/vcf_filtered/CM-2_10_3.bcf.gz
+  'EI-23': variantCall/results/vcf_filtered/EI-23_10_3.bcf.gz
+  'EI-28': variantCall/results/vcf_filtered/EI-28_10_3.bcf.gz
+  'EU-7': variantCall/results/vcf_filtered/EU-7_10_3.bcf.gz
+  'HD-1': variantCall/results/vcf_filtered/HD-1_10_3.bcf.gz
+  'HD-2': variantCall/results/vcf_filtered/HD-2_10_3.bcf.gz
+  'HD-3': variantCall/results/vcf_filtered/HD-3_10_3.bcf.gz
+  'HD-5': variantCall/results/vcf_filtered/HD-5_10_3.bcf.gz
+  'JA-1': variantCall/results/vcf_filtered/JA-1_10_3.bcf.gz
+  'JA-4': variantCall/results/vcf_filtered/JA-4_10_3.bcf.gz
+  'KU-11': variantCall/results/vcf_filtered/KU-11_10_3.bcf.gz
+  'KU-12': variantCall/results/vcf_filtered/KU-12_10_3.bcf.gz
+  'KU-13': variantCall/results/vcf_filtered/KU-13_10_3.bcf.gz
+  'KU-2': variantCall/results/vcf_filtered/KU-2_10_3.bcf.gz
+  'KU-21': variantCall/results/vcf_filtered/KU-21_10_3.bcf.gz
+  'KU-23': variantCall/results/vcf_filtered/KU-23_10_3.bcf.gz
+  'KU-27': variantCall/results/vcf_filtered/KU-27_10_3.bcf.gz
+  'KU-31': variantCall/results/vcf_filtered/KU-31_10_3.bcf.gz
+  'KU-32': variantCall/results/vcf_filtered/KU-32_10_3.bcf.gz
+  'KU-39': variantCall/results/vcf_filtered/KU-39_10_3.bcf.gz
+  'KU-4': variantCall/results/vcf_filtered/KU-4_10_3.bcf.gz
+  'MO25': variantCall/results/vcf_filtered/MO25_10_3.bcf.gz
+  'MO28': variantCall/results/vcf_filtered/MO28_10_3.bcf.gz
+  'MO29': variantCall/results/vcf_filtered/MO29_10_3.bcf.gz
+  'MO32': variantCall/results/vcf_filtered/MO32_10_3.bcf.gz
+  'MO33': variantCall/results/vcf_filtered/MO33_10_3.bcf.gz
+  'MO34': variantCall/results/vcf_filtered/MO34_10_3.bcf.gz
+  'MO35': variantCall/results/vcf_filtered/MO35_10_3.bcf.gz
+  'MO42': variantCall/results/vcf_filtered/MO42_10_3.bcf.gz
+  'MO46': variantCall/results/vcf_filtered/MO46_10_3.bcf.gz
+  'MO49': variantCall/results/vcf_filtered/MO49_10_3.bcf.gz
+  'MO50': variantCall/results/vcf_filtered/MO50_10_3.bcf.gz
+  'RY-3': variantCall/results/vcf_filtered/RY-3_10_3.bcf.gz
+  'SF-1': variantCall/results/vcf_filtered/SF-1_10_3.bcf.gz
+  'SF-3': variantCall/results/vcf_filtered/SF-3_10_3.bcf.gz
+  'TH-27': variantCall/results/vcf_filtered/TH-27_10_3.bcf.gz
