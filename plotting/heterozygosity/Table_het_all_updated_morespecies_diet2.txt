@@ -1,0 +1,49 @@
+Common Name	Scientific name	IUCN Red List category	Main diet	Genome-wide heterozygosity	Color
+San Nicolas Island Fox	Urocyon littoralis	Near Threatened	Carnivore	1.66E-05	A
+White-faced muskox	Ovibos moschatus wardi	Least Concern	Herbivore	0.000063	B
+Vaquita	Phocoena sinus	Critically endangered	Carnivore	0.000097	A
+Baiji river dolphin	Lipotes vexillifer	Critically endangered	Carnivore	0.000121	A
+Brown Hyena	Parahyaena brunnea	Near Threatened	Carnivore	0.000121	A
+Narwhal	Monodon monoceros	Least Concern	Carnivore	0.000138	A
+Iberian lynx	Lynx pardinus	Endangered	Carnivore	0.000176	A
+Killer whale	Orcinus orca	Data deficient	Carnivore	0.00021	A
+Snow leopard	Panthera uncia	Vulnerable	Carnivore	0.00023	A
+Cheetah	Acinonyx jubatus	Vulnerable	Carnivore	0.000269	A
+Barren-ground muskox	Ovibos moschatus moschatus	Least Concern	Herbivore	0.000274	B
+Beluga whale	Delphinapterus leucas	Least Concern	Carnivore	0.00029	A
+Southern sea otter	Enhydra lutris nereis	Endangered	Carnivore	0.0003	A
+Northern sea otter	Enhydra lutris kenyoni	Endangered	Carnivore	0.0003	A
+White African lion	Panthera leo	Vulnerable	Carnivore	0.00048	A
+Amur tiger	Panthera tigris altaica	Endangered	Carnivore	0.00049	A
+White rhino	Ceratotherium simum simum	Near Threatened	Herbivore	0.00053	A
+African lion	Panthera leo	Vulnerable	Carnivore	0.00058	A
+Greater One-horned rhino	Rhinoceros unicornis	Vulnerable	Herbivore	0.00059	A
+Giant otter	Pteronura brasiliensis	Endangered	Carnivore	0.0006	A
+Western chimpanzee	Pan troglodytes verus	Critically endangered	Omnivore	0.00063	A
+Bonobo	Pan paniscus	Endangered	Omnivore	0.00063	A
+Eastern lowland gorilla 	Gorilla beringei graueri	Critically endangered	Herbivore	0.00064	A
+Mountain gorilla	Gorilla beringei beringei	Endangered	Herbivore	0.00065	A
+Moose	Alces alces	Least Concern	Herbivore	0.00067	A
+Naked mole rat	Heterocephalus glaber	Least Concern	Herbivore	0.0007	A
+White Bengal tiger	Panthera tigris tigris	Endangered	Carnivore	0.00073	A
+European bison	Bison bonasus	Near Threatened	Herbivore	0.00079	A
+Ancient Siberian muskox	Ovibos moschatus		Herbivore	0.00083	B
+African savanna elephant  Loxodonta africana africana	Endangered	Herbivore	0.000865	A
+South-western black rhino	Diceros bicornis	Critically endangered	Herbivore	0.00091	A
+Yakutia snow sheep	Ovis nivicola	Least Concern	Herbivore	0.00091	A
+"Merck's rhinoceros"	Stephanorhinus kirchbergensis	Extinct	Herbivore	0.00092	A
+Nigeria-Cameroon chimpanzee	Pan troglodytes ellioti	Endangered	Omnivore	0.00094	A
+Cross River gorilla	Gorilla gorilla diehli	Critically endangered	Herbivore	0.00099	A
+Indian elephant	Elephas maximus	Endangered	Herbivore	0.000993	A
+Bactrian camel	Camelus ferus	Critically endangered	Herbivore	0.001	A
+Woolly mammoth	Mammuthus primigenius	Extinct	Herbivore	0.00113	A
+California gray fox	Urocyon cinereoargenteus	Least Concern	Carnivore	0.0012	A
+Eastern chimpanzee	Pan troglodytes schweinfurthii	Endangered	Omnivore	0.00128	A
+Sumatra rhinoceros	Dicerorhinus sumatrensis	Critically endangered	Herbivore	0.00124	A
+Giant panda	Ailuropoda melanoleuca	Vulnerable	Herbivore	0.00135	A
+"Przewalski's horse"	Equus ferus	Endangered	Herbivore	0.0014	A
+Western lowland gorilla	Gorilla gorilla gorilla	Critically endangered	Herbivore	0.00144	A
+Central chimpanzee	Pan troglodytes troglodytes	Endangered	Omnivore	0.00147	A
+Javan rhinoceros	Rhinoceros sondaicus	Critically endangered	Herbivore	0.00192	A
+Woolly rhinoceros	Coelodonta antiquitatis	Extinct	Herbivore	0.00196	A
+Eurasian tundra reindeer	Rangifer tarandus	Vulnerable	Herbivore	0.00205	A
