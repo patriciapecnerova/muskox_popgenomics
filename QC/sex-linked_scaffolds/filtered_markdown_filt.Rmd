@@ -1,0 +1,119 @@
+fun<-function(f){
+    r <- read.table(f)
+    scafLen <- r[,2]
+    nReads <- r[,3]
+    norm<-sum(nReads[1:5])/sum(scafLen[1:5])
+    cbind(normReads=(nReads/scafLen) /norm,nReads,scafLen,r[,-c(3,4)])}
+
+## requires directory with individual .idxstats files
+res <- lapply(l <- list.files("idxstat_files_filt/",full.names=T),fun)
+names(res) <- basename(l)
+removedSamples<-c()
+resFiltered=res[which(!names(res) %in% removedSamples)]
+
+minScafLen <- 1000000
+keep <- resFiltered[[1]][,"scafLen"]>minScafLen & !is.nan(resFiltered[[1]][,"scafLen"])
+res2 <- lapply(resFiltered,function(x) x[keep,])
+mmax <- max(sapply(res2,function(x) max(x[,"normReads"])))
+mmax=4
+png("plots/1bplot.png", width = 1000, height = 400)
+plot(res2[[1]][,"scafLen"],res2[[1]][,"normReads"],log="x",xlab="scaffold length",ylab="normalized depth",ylim=c(0,mmax),type="l")
+sapply(1:length(res2),function(x) lines(res2[[x]][,3],res2[[x]][,1],col=x,pch=16,type="b",cex=.3))
+dev.off()
+
+#matrix of normalized depth
+normMat <- do.call(cbind,lapply(res2,function(x) x[,1]))
+rownames(normMat)=as.character(res2[[1]][,4])
+png("plots/pca1.png", width = 2000, height = 2000)
+plot(pca<-prcomp(normMat)$rotation[,1:2])
+dev.off()
+
+## Initial Sex Grouping by according to PCA plot
+gender <- rep(NA,length(res2))
+names(gender) <- names(res2)
+gender[names(res2)] <- ifelse(pca[,1] < -0.1,"sex1","sex2")
+gen=cbind(id=as.character(names(gender)),gender,sex=ifelse(gender=="sex1","male","female"))
+write.table(gen,"sexSample.txt",quote=F,col=F,row=F)
+
+png("plots/2plot.png", width = 1000, height = 400)
+plot(res2[[1]][,"scafLen"],res2[[1]][,"normReads"],log="x",xlab="scaffold length",ylab="normalized depth",ylim=c(0,mmax),type="l")
+sapply(1:length(res2),function(x) lines(res2[[x]][,3],res2[[x]][,1],col=as.factor(gender)[x],pch=16,type="b",cex=.3))
+legend("topright",fill=1:2,c("sex1","sex2"))
+dev.off()
+
+png("plots/3plot.png", width = 1000, height = 400)
+barplot(border=NA,col=c("black","red"),meanDepth <- rbind(rowMeans(normMat[,gender=="sex1"],na.rm=T), rowMeans(normMat[,gender=="sex2"],na.rm=T)),beside=T,legend=c("sex1","sex2"),ylab="normalized depth",xlab="scaffolds")
+grid()
+dev.off()
+
+nonAutosomes <- abs(meanDepth[1,] - meanDepth[2,])>0.1
+selectedScaf=meanDepth[,nonAutosomes]
+colnames(selectedScaf)=rownames(normMat)[nonAutosomes]
+png("plots/4plot.png", width = 1000, height = 500)
+par(mar = c(14, 4, 4, 1) + 0.1);       # This sets the plot margins
+barplot(xlab="",las=2,cex.names=.9,border=NA,col=c("black","red"),selectedScaf,beside=T,legend=c("sex1","sex2"),ylab="normalized depth")
+grid();
+title(xlab = "scaffold", line = 9);    # Add x axis title
+dev.off()
+
+nonAutosomes04 <- abs(meanDepth[1,] - meanDepth[2,])>0.3
+selectedScaf=meanDepth[,nonAutosomes04]
+colnames(selectedScaf)=rownames(normMat)[nonAutosomes04]
+png("plots/4plot04.png", width = 1000, height = 500)
+par(mar = c(14, 4, 4, 1) + 0.1);       # This sets the plot margins
+barplot(xlab="",las=2,cex.names=.9,border=NA,col=c("black","red"),selectedScaf,beside=T,legend=c("sex1","sex2"),ylab="normalized depth")
+grid();
+title(xlab = "scaffold", line = 9);    # Add x axis title
+dev.off()
+
+scaf23=rownames(normMat)[nonAutosomes04]
+
+keep23 <- res2[[1]][,"V1"] %in% scaf23
+res3 <- lapply(res2,function(x) x[keep23,])
+
+mmax=2
+png("plots/23Scafplot_scafLen.png", width = 1000, height = 400)
+plot(res3[[1]][,"scafLen"],res3[[1]][,"normReads"],log="x",xlab="scaffold length",ylab="normalized depth",ylim=c(0,mmax),type="l")
+sapply(1:length(res3),function(x) lines(res3[[x]][,3],res3[[x]][,1],col=x,pch=16,type="b",cex=.3))
+dev.off()
+
+require('matrixStats')
+
+meanSDDepthAll <- cbind(rownames(normMat),rowMeans(normMat,na.rm=T), rowSds(normMat,na.rm=T))
+colnames(meanSDDepthAll)=c("nameScaf","Mean","SD")
+
+normMat2 <- do.call(cbind,lapply(res3,function(x) x[,1]))
+#normMat2["47145",] > 0.8 & normMat2["47109",] < 0.6 # 2523.idxstats
+
+library(ggplot2)
+library(matrixStats)
+meanSDDepthAll <- cbind(rownames(normMat),rowMeans(normMat,na.rm=T), rowSds(normMat,na.rm=T))
+colnames(meanSDDepthAll)=c("nameScaf","Mean","SD")
+dat=as.data.frame(meanSDDepthAll)
+dat2=as.data.frame(cbind(Mean=as.numeric(as.character(dat[,2])),SD=as.numeric(as.character(dat[,3]))))
+chr=ifelse(nonAutosomes04==TRUE,"NonAutosomes","Autosomes")
+dat3=cbind(dat2,group=as.character(chr))
+
+
+png("plots/222ScafAutoNonAuto.png", width = 1000, height = 400)
+ggplot(dat3, aes(x=1:134, y=Mean))+geom_point(aes(color=group))+geom_errorbar(aes(ymin=Mean-SD,ymax=Mean+SD),width=.1)+theme_classic()+scale_color_manual(values=c("black","blue"))+labs(x="Scaffold",color="") + 
+    geom_hline(yintercept=1.1, linetype="dashed", color = "red") +
+    geom_hline(yintercept=0.9, linetype="dashed", color = "red")
+dev.off()
+
+
+####check
+
+rownames(dat3)=rownames(normMat)
+
+weird=ifelse(dat2[,1]>0.9 & dat2[,1]<1.1, "autosomes",ifelse(dat2[,1]<0.80 & dat2[,1]>0.70,"nonautosomes","weird"))
+dat4=cbind(nameScaf=rownames(normMat),dat2,MeanBasedGrouping=as.character(weird))
+write.table(dat4,"plots/MeanSDGroup222Scaf.txt",quote=F,row=F)
+
+png("plots/222ScafAutoNonAuto_weirdScaff.png", width = 1000, height = 400)
+ggplot(dat4, aes(x=1:134, y=Mean))+geom_point(aes(color=MeanBasedGrouping))+geom_errorbar(aes(ymin=Mean-SD,ymax=Mean+SD),width=.1)+theme_classic()+scale_color_manual(values=c("black","blue","red"))+labs(x="Scaffold",color="") + geom_hline(yintercept=1.1, linetype="dashed", color = "red") +
+    geom_hline(yintercept=0.9, linetype="dashed", color = "red")
+dev.off()
+
+
+
