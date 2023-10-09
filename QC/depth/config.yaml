@@ -1,0 +1,10 @@
+groups:
+  lowdepth: muskox_bamlist_qc_LC.txt
+  highdepth: muskox_bamlist_qc_HC.txt
+outmain: results
+chroms: contigs1MB_remap_autosomes_headers.txt
+angsdparams:
+  maxdepth: 4000 ## e.g. average depth * #samples * 3
+  minQ: 30
+  minMapQ: 30
+allbed: contigs1MB_remap_autosomes.bed
