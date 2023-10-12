@@ -5,7 +5,7 @@ require(ggrepel)
 require(data.table)
 
 ## Upload covariance matrix
-muskox_covariance <- as.matrix(read.table("pcangsd_wSib.tree.cov"))
+muskox_covariance <- as.matrix(read.table("pcangsd_wSib.cov"))
 
 ## Upload pop info
 muskoxSum1 <- read.csv("muskox_bamlist.txt", sep = "\t", header = TRUE)
