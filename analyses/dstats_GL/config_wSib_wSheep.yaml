@@ -1,0 +1,34 @@
+anc: GCF_002742125.1_Oar_rambouillet_v1.0_genomic_simpleheader.fna
+bed: whitelist_sheep.sites
+chroms:
+- NC_040252
+- NC_040253
+- NC_040254
+- NC_040255
+- NC_040256
+- NC_040257
+- NC_040259
+- NC_040260
+- NC_040261
+- NC_040262
+- NC_040263
+- NC_040266
+- NC_040267
+- NC_040270
+- NC_040273
+- NC_040274
+- NC_040276
+- NC_040277
+groups:
+  All:
+  - Sheep
+  - Sib
+  - CaMW
+  - CaME
+  - CaIS
+  - CaIN
+  - GrN
+  - GrEN
+  - GrES
+
+info: dstats_muskox_wSib_wSheep.txt
