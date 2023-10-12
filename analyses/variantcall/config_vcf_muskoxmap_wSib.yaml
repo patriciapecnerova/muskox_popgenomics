@@ -1,0 +1,136 @@
+bed: whitelist.bed
+outmain: results
+ref: muskox_pseudohap.gapcloser.v1.lenchecked.fasta
+chroms:
+- '10'
+- '9'
+- '23'
+- '25'
+- '24'
+- '38'
+- '26'
+- '21'
+- '22'
+- '83'
+- '81'
+- '39'
+- '41'
+- '82'
+- '11'
+- '37'
+- '36'
+- '44'
+- '77'
+- '43'
+- '40'
+- '85'
+- '42'
+- '134'
+- '45'
+- '93'
+- '80'
+- '78'
+- '79'
+- '106'
+- '89'
+- '88'
+- '128'
+- 'M0'
+- '91'
+- '107'
+- '92'
+- '127'
+- '118'
+- '86'
+- '114'
+- '117'
+- '133'
+- '84'
+- '47161'
+- '126'
+- '90'
+- '113'
+- '87'
+- '121'
+- '35'
+- '120'
+- '129'
+- '104'
+- '110'
+- '112'
+- '111'
+- '109'
+- '47152'
+- '271'
+- '139'
+- '230'
+- '135'
+- '47244'
+- '47272'
+- '47227'
+- '265'
+- '47103'
+samples:
+  'EL012': ancient/muskoxmap/EL012.merged.rmdup.merged.realn.bam
+  'AH-1': mapping2/results/MQ30bam/AH-1_40.MQ30.bam
+  'AI-1': mapping2/results/MQ30bam/AI-1_119.MQ30.bam
+  'BI-1': mapping2/results/MQ30bam/BI-1_162.MQ30.bam
+  'BI-26': mapping2/results/MQ30bam/BI-26_18.MQ30.bam
+  'BI-28': mapping2/results/MQ30bam/BI-28_99.MQ30.bam
+  'BI-32': mapping2/results/MQ30bam/BI-32_19.MQ30.bam
+  'BI-35': mapping2/results/MQ30bam/BI-35_20.MQ30.bam
+  'BI-36': mapping2/results/MQ30bam/BI-36_21.MQ30.bam
+  'BL-10': mapping2/results/MQ30bam/BL-10_175.MQ30.bam
+  'BL-11': mapping2/results/MQ30bam/BL-11_9.MQ30.bam
+  'BL-13': mapping2/results/MQ30bam/BL-13_8.MQ30.bam
+  'BL-15': mapping2/results/MQ30bam/BL-15_31.MQ30.bam
+  'BL-17': mapping2/results/MQ30bam/BL-17_11.MQ30.bam
+  'BL-1': mapping2/results/MQ30bam/BL-1_7.MQ30.bam
+  'BL-20': mapping2/results/MQ30bam/BL-20_10.MQ30.bam
+  'BL-2': mapping2/results/MQ30bam/BL-23_32.MQ30.bam
+  'BL-23': mapping2/results/MQ30bam/BL-24_33.MQ30.bam
+  'BL-24': mapping2/results/MQ30bam/BL-2_26.MQ30.bam
+  'BL-4': mapping2/results/MQ30bam/BL-4_28.MQ30.bam
+  'BL-6': mapping2/results/MQ30bam/BL-6_29.MQ30.bam
+  'CH-3': mapping2/results/MQ30bam/CH-3_62.MQ30.bam
+  'CH-7': mapping2/results/MQ30bam/CH-7_45.MQ30.bam
+  'CI-8': mapping2/results/MQ30bam/CI-8_14.MQ30.bam
+  'CM-1': mapping2/results/MQ30bam/CM-1_61.MQ30.bam
+  'CM-2': mapping2/results/MQ30bam/CM-2_63.MQ30.bam
+  'EI-23': mapping2/results/MQ30bam/EI-23_12.MQ30.bam
+  'EI-28': mapping2/results/MQ30bam/EI-28_17.MQ30.bam
+  'EU-7': mapping2/results/MQ30bam/EU-7_67.MQ30.bam
+  'HD-1': mapping2/results/MQ30bam/HD-1.MQ30.bam
+  'HD-2': mapping2/results/MQ30bam/HD-2.MQ30.bam
+  'HD-3': mapping2/results/MQ30bam/HD-3.MQ30.bam
+  'HD-5': mapping2/results/MQ30bam/HD-5.MQ30.bam
+  'HD-3d': downsampled/HD-3_downsampled.bam
+  'HD-5d': downsampled/HD-5_downsampled.bam
+  'JA-1': mapping2/results/MQ30bam/JA-1_34.MQ30.bam
+  'JA-4': mapping2/results/MQ30bam/JA-4_36.MQ30.bam
+  'KU-11': mapping2/results/MQ30bam/KU-11_64.MQ30.bam
+  'KU-12': mapping2/results/MQ30bam/KU-12_70.MQ30.bam
+  'KU-13': mapping2/results/MQ30bam/KU-13_38.MQ30.bam
+  'KU-21': mapping2/results/MQ30bam/KU-21_43.MQ30.bam
+  'KU-23': mapping2/results/MQ30bam/KU-23_3.MQ30.bam
+  'KU-2': mapping2/results/MQ30bam/KU-27_2.MQ30.bam
+  'KU-27': mapping2/results/MQ30bam/KU-2_57.MQ30.bam
+  'KU-31': mapping2/results/MQ30bam/KU-31_46.MQ30.bam
+  'KU-32': mapping2/results/MQ30bam/KU-32_48.MQ30.bam
+  'KU-39': mapping2/results/MQ30bam/KU-39_56.MQ30.bam
+  'KU-4': mapping2/results/MQ30bam/KU-4_72.MQ30.bam
+  'MO25': mapping2/results/MQ30bam/MO25_ZA.MQ30.bam
+  'MO28': mapping2/results/MQ30bam/MO28_ZA.MQ30.bam
+  'MO29': mapping2/results/MQ30bam/MO29_ZA.MQ30.bam
+  'MO32': mapping2/results/MQ30bam/MO32_ZA.MQ30.bam
+  'MO33': mapping2/results/MQ30bam/MO33_ZA.MQ30.bam
+  'MO34': mapping2/results/MQ30bam/MO34_ZA.MQ30.bam
+  'MO35': mapping2/results/MQ30bam/MO35_ZA.MQ30.bam
+  'MO42': mapping2/results/MQ30bam/MO42_ZA.MQ30.bam
+  'MO46': mapping2/results/MQ30bam/MO46_ZA.MQ30.bam
+  'MO49': mapping2/results/MQ30bam/MO49_ZA.MQ30.bam
+  'MO50': mapping2/results/MQ30bam/MO50_ZA.MQ30.bam
+  'RY-3': mapping2/results/MQ30bam/RY-3.MQ30.bam
+  'SF-1': mapping2/results/MQ30bam/SF-1_42.MQ30.bam
+  'SF-3': mapping2/results/MQ30bam/SF-3_49.MQ30.bam
+  'TH-27': mapping2/results/MQ30bam/TH-27_69.MQ30.bam
