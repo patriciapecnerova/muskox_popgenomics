@@ -1,0 +1,534 @@
+AH-1_40:
+- AH-1_40/AH-1_40_1.fq.gz
+- AH-1_40/AH-1_40_2.fq.gz
+AH-2_109:
+- AH-2_109/AH-2_109_1.fq.gz
+- AH-2_109/AH-2_109_2.fq.gz
+AH-3_110:
+- AH-3_110/AH-3_110_1.fq.gz
+- AH-3_110/AH-3_110_2.fq.gz
+AH-4_51:
+- AH-4_51/AH-4_51_1.fq.gz
+- AH-4_51/AH-4_51_2.fq.gz
+AI-1_119:
+- AI-1_119/AI-1_119_1.fq.gz
+- AI-1_119/AI-1_119_2.fq.gz
+BI-1_162:
+- BI-1_162/BI-1_162_1.fq.gz
+- BI-1_162/BI-1_162_2.fq.gz
+BI-26_18:
+- BI-26_18/BI-26_18_1.fq.gz
+- BI-26_18/BI-26_18_2.fq.gz
+BI-28_99:
+- BI-28_99/BI-28_99_1.fq.gz
+- BI-28_99/BI-28_99_2.fq.gz
+BI-30_167:
+- BI-30_167/BI-30_167_1.fq.gz
+- BI-30_167/BI-30_167_2.fq.gz
+BI-31_168:
+- BI-31_168/BI-31_168_1.fq.gz
+- BI-31_168/BI-31_168_2.fq.gz
+BI-32_19:
+- BI-32_19/BI-32_19_1.fq.gz
+- BI-32_19/BI-32_19_2.fq.gz
+BI-33_169:
+- BI-33_169/BI-33_169_1.fq.gz
+- BI-33_169/BI-33_169_2.fq.gz
+BI-35_20:
+- BI-35_20/BI-35_20_1.fq.gz
+- BI-35_20/BI-35_20_2.fq.gz
+BI-36_21:
+- BI-36_21/BI-36_21_1.fq.gz
+- BI-36_21/BI-36_21_2.fq.gz
+BI-37_170:
+- BI-37_170/BI-37_170_1.fq.gz
+- BI-37_170/BI-37_170_2.fq.gz
+BI-38_22:
+- BI-38_22/BI-38_22_1.fq.gz
+- BI-38_22/BI-38_22_2.fq.gz
+BI-5_97:
+- BI-5_97/BI-5_97_1.fq.gz
+- BI-5_97/BI-5_97_2.fq.gz
+BI-6_98:
+- BI-6_98/BI-6_98_1.fq.gz
+- BI-6_98/BI-6_98_2.fq.gz
+BL-10_175:
+- BL-10_175/BL-10_175_1.fq.gz
+- BL-10_175/BL-10_175_2.fq.gz
+BL-11_9:
+- BL-11_9/BL-11_9_1.fq.gz
+- BL-11_9/BL-11_9_2.fq.gz
+BL-13_8:
+- BL-13_8/BL-13_8_1.fq.gz
+- BL-13_8/BL-13_8_2.fq.gz
+BL-14_176:
+- BL-14_176/BL-14_176_1.fq.gz
+- BL-14_176/BL-14_176_2.fq.gz
+BL-15_31:
+- BL-15_31/BL-15_31_1.fq.gz
+- BL-15_31/BL-15_31_2.fq.gz
+BL-17_11:
+- BL-17_11/BL-17_11_1.fq.gz
+- BL-17_11/BL-17_11_2.fq.gz
+BL-1_7:
+- BL-1_7/BL-1_7_1.fq.gz
+- BL-1_7/BL-1_7_2.fq.gz
+BL-20_10:
+- BL-20_10/BL-20_10_1.fq.gz
+- BL-20_10/BL-20_10_2.fq.gz
+BL-23_32:
+- BL-23_32/BL-23_32_1.fq.gz
+- BL-23_32/BL-23_32_2.fq.gz
+BL-24_33:
+- BL-24_33/BL-24_33_1.fq.gz
+- BL-24_33/BL-24_33_2.fq.gz
+BL-2_26:
+- BL-2_26/BL-2_26_1.fq.gz
+- BL-2_26/BL-2_26_2.fq.gz
+BL-4_28:
+- BL-4_28/BL-4_28_1.fq.gz
+- BL-4_28/BL-4_28_2.fq.gz
+BL-6_29:
+- BL-6_29/BL-6_29_1.fq.gz
+- BL-6_29/BL-6_29_2.fq.gz
+BS-3_144:
+- BS-3_144/BS-3_144_1.fq.gz
+- BS-3_144/BS-3_144_2.fq.gz
+BS-4_136:
+- BS-4_136/BS-4_136_1.fq.gz
+- BS-4_136/BS-4_136_2.fq.gz
+BS-6_139:
+- BS-6_139/BS-6_139_1.fq.gz
+- BS-6_139/BS-6_139_2.fq.gz
+CH-2_60:
+- CH-2_60/CH-2_60_1.fq.gz
+- CH-2_60/CH-2_60_2.fq.gz
+CH-3_62:
+- CH-3_62/CH-3_62_1.fq.gz
+- CH-3_62/CH-3_62_2.fq.gz
+CH-4_68:
+- CH-4_68/CH-4_68_1.fq.gz
+- CH-4_68/CH-4_68_2.fq.gz
+CH-5_137:
+- CH-5_137/CH-5_137_1.fq.gz
+- CH-5_137/CH-5_137_2.fq.gz
+CH-6_41:
+- CH-6_41/CH-6_41_1.fq.gz
+- CH-6_41/CH-6_41_2.fq.gz
+CH-7_45:
+- CH-7_45/CH-7_45_1.fq.gz
+- CH-7_45/CH-7_45_2.fq.gz
+CH-8_47:
+- CH-8_47/CH-8_47_1.fq.gz
+- CH-8_47/CH-8_47_2.fq.gz
+CI-1_154:
+- CI-1_154/CI-1_154_1.fq.gz
+- CI-1_154/CI-1_154_2.fq.gz
+CI-5_156:
+- CI-5_156/CI-5_156_1.fq.gz
+- CI-5_156/CI-5_156_2.fq.gz
+CI-6_157:
+- CI-6_157/CI-6_157_1.fq.gz
+- CI-6_157/CI-6_157_2.fq.gz
+CI-8_14:
+- CI-8_14/CI-8_14_1.fq.gz
+- CI-8_14/CI-8_14_2.fq.gz
+CM-1_61:
+- CM-1_61/CM-1_61_1.fq.gz
+- CM-1_61/CM-1_61_2.fq.gz
+CM-2_63:
+- CM-2_63/CM-2_63_1.fq.gz
+- CM-2_63/CM-2_63_2.fq.gz
+DI-16_74:
+- DI-16_74/DI-16_74_1.fq.gz
+- DI-16_74/DI-16_74_2.fq.gz
+DI-2_166:
+- DI-2_166/DI-2_166_1.fq.gz
+- DI-2_166/DI-2_166_2.fq.gz
+DI-3_24:
+- DI-3_24/DI-3_24_1.fq.gz
+- DI-3_24/DI-3_24_2.fq.gz
+DI-4_25:
+- DI-4_25/DI-4_25_1.fq.gz
+- DI-4_25/DI-4_25_2.fq.gz
+DI-5_171:
+- DI-5_171/DI-5_171_1.fq.gz
+- DI-5_171/DI-5_171_2.fq.gz
+DI-7_173:
+- DI-7_173/DI-7_173_1.fq.gz
+- DI-7_173/DI-7_173_2.fq.gz
+EI-11_158:
+- EI-11_158/EI-11_158_1.fq.gz
+- EI-11_158/EI-11_158_2.fq.gz
+EI-20_163:
+- EI-20_163/EI-20_163_1.fq.gz
+- EI-20_163/EI-20_163_2.fq.gz
+EI-22_89:
+- EI-22_89/EI-22_89_1.fq.gz
+- EI-22_89/EI-22_89_2.fq.gz
+EI-23_12:
+- EI-23_12/EI-23_12_1.fq.gz
+- EI-23_12/EI-23_12_2.fq.gz
+EI-24_164:
+- EI-24_164/EI-24_164_1.fq.gz
+- EI-24_164/EI-24_164_2.fq.gz
+EI-26_15:
+- EI-26_15/EI-26_15_1.fq.gz
+- EI-26_15/EI-26_15_2.fq.gz
+EI-28_17:
+- EI-28_17/EI-28_17_1.fq.gz
+- EI-28_17/EI-28_17_2.fq.gz
+EI-8_90:
+- EI-8_90/EI-8_90_1.fq.gz
+- EI-8_90/EI-8_90_2.fq.gz
+EU-12_148:
+- EU-12_148/EU-12_148_1.fq.gz
+- EU-12_148/EU-12_148_2.fq.gz
+EU-13_93:
+- EU-13_93/EU-13_93_1.fq.gz
+- EU-13_93/EU-13_93_2.fq.gz
+EU-15_150:
+- EU-15_150/EU-15_150_1.fq.gz
+- EU-15_150/EU-15_150_2.fq.gz
+EU-16_92:
+- EU-16_92/EU-16_92_1.fq.gz
+- EU-16_92/EU-16_92_2.fq.gz
+EU-17_95:
+- EU-17_95/EU-17_95_1.fq.gz
+- EU-17_95/EU-17_95_2.fq.gz
+EU-18_94:
+- EU-18_94/EU-18_94_1.fq.gz
+- EU-18_94/EU-18_94_2.fq.gz
+EU-19_152:
+- EU-19_152/EU-19_152_1.fq.gz
+- EU-19_152/EU-19_152_2.fq.gz
+EU-1_145:
+- EU-1_145/EU-1_145_1.fq.gz
+- EU-1_145/EU-1_145_2.fq.gz
+EU-2_142:
+- EU-2_142/EU-2_142_1.fq.gz
+- EU-2_142/EU-2_142_2.fq.gz
+EU-3_149:
+- EU-3_149/EU-3_149_1.fq.gz
+- EU-3_149/EU-3_149_2.fq.gz
+EU-6_151:
+- EU-6_151/EU-6_151_1.fq.gz
+- EU-6_151/EU-6_151_2.fq.gz
+EU-7_67:
+- EU-7_67/EU-7_67_1.fq.gz
+- EU-7_67/EU-7_67_2.fq.gz
+EU-8_147:
+- EU-8_147/EU-8_147_1.fq.gz
+- EU-8_147/EU-8_147_2.fq.gz
+FR-2_39:
+- FR-2_39/FR-2_39_1.fq.gz
+- FR-2_39/FR-2_39_2.fq.gz
+GF-14_116:
+- GF-14_116/GF-14_116_1.fq.gz
+- GF-14_116/GF-14_116_2.fq.gz
+GF-15_6:
+- GF-15_6/GF-15_6_1.fq.gz
+- GF-15_6/GF-15_6_2.fq.gz
+GF-19_117:
+- GF-19_117/GF-19_117_1.fq.gz
+- GF-19_117/GF-19_117_2.fq.gz
+GF-1_58:
+- GF-1_58/GF-1_58_1.fq.gz
+- GF-1_58/GF-1_58_2.fq.gz
+GF-22_81:
+- GF-22_81/GF-22_81_1.fq.gz
+- GF-22_81/GF-22_81_2.fq.gz
+GF-2_75:
+- GF-2_75/GF-2_75_1.fq.gz
+- GF-2_75/GF-2_75_2.fq.gz
+GF-4_65:
+- GF-4_65/GF-4_65_1.fq.gz
+- GF-4_65/GF-4_65_2.fq.gz
+GF-5_71:
+- GF-5_71/GF-5_71_1.fq.gz
+- GF-5_71/GF-5_71_2.fq.gz
+GI-1_179:
+- GI-1_179/GI-1_179_1.fq.gz
+- GI-1_179/GI-1_179_2.fq.gz
+GI-2_180:
+- GI-2_180/GI-2_180_1.fq.gz
+- GI-2_180/GI-2_180_2.fq.gz
+GI-3_181:
+- GI-3_181/GI-3_181_1.fq.gz
+- GI-3_181/GI-3_181_2.fq.gz
+GI-4_182:
+- GI-4_182/GI-4_182_1.fq.gz
+- GI-4_182/GI-4_182_2.fq.gz
+GI-5_183:
+- GI-5_183/GI-5_183_1.fq.gz
+- GI-5_183/GI-5_183_2.fq.gz
+GI-7_184:
+- GI-7_184/GI-7_184_1.fq.gz
+- GI-7_184/GI-7_184_2.fq.gz
+GI-8_186:
+- GI-8_186/GI-8_186_1.fq.gz
+- GI-8_186/GI-8_186_2.fq.gz
+GI-9_187:
+- GI-9_187/GI-9_187_1.fq.gz
+- GI-9_187/GI-9_187_2.fq.gz
+HH-13_201:
+- HH-13_201/HH-13_201_1.fq.gz
+- HH-13_201/HH-13_201_2.fq.gz
+HH-16_190:
+- HH-16_190/HH-16_190_1.fq.gz
+- HH-16_190/HH-16_190_2.fq.gz
+HH-18_189:
+- HH-18_189/HH-18_189_1.fq.gz
+- HH-18_189/HH-18_189_2.fq.gz
+HH-20_191:
+- HH-20_191/HH-20_191_1.fq.gz
+- HH-20_191/HH-20_191_2.fq.gz
+HH-4_82:
+- HH-4_82/HH-4_82_1.fq.gz
+- HH-4_82/HH-4_82_2.fq.gz
+HH-5_83:
+- HH-5_83/HH-5_83_1.fq.gz
+- HH-5_83/HH-5_83_2.fq.gz
+HH-6_84:
+- HH-6_84/HH-6_84_1.fq.gz
+- HH-6_84/HH-6_84_2.fq.gz
+JA-1_34:
+- JA-1_34/JA-1_34_1.fq.gz
+- JA-1_34/JA-1_34_2.fq.gz
+JA-2_35:
+- JA-2_35/JA-2_35_1.fq.gz
+- JA-2_35/JA-2_35_2.fq.gz
+JA-3_178:
+- JA-3_178/JA-3_178_1.fq.gz
+- JA-3_178/JA-3_178_2.fq.gz
+JA-4_36:
+- JA-4_36/JA-4_36_1.fq.gz
+- JA-4_36/JA-4_36_2.fq.gz
+KC-1_130:
+- KC-1_130/KC-1_130_1.fq.gz
+- KC-1_130/KC-1_130_2.fq.gz
+KC-2_124:
+- KC-2_124/KC-2_124_1.fq.gz
+- KC-2_124/KC-2_124_2.fq.gz
+KU-11_64:
+- KU-11_64/KU-11_64_1.fq.gz
+- KU-11_64/KU-11_64_2.fq.gz
+KU-12_70:
+- KU-12_70/KU-12_70_1.fq.gz
+- KU-12_70/KU-12_70_2.fq.gz
+KU-13_38:
+- KU-13_38/KU-13_38_1.fq.gz
+- KU-13_38/KU-13_38_2.fq.gz
+KU-16_77:
+- KU-16_77/KU-16_77_1.fq.gz
+- KU-16_77/KU-16_77_2.fq.gz
+KU-18_1:
+- KU-18_1/KU-18_1_1.fq.gz
+- KU-18_1/KU-18_1_2.fq.gz
+KU-21_43:
+- KU-21_43/KU-21_43_1.fq.gz
+- KU-21_43/KU-21_43_2.fq.gz
+KU-23_3:
+- KU-23_3/KU-23_3_1.fq.gz
+- KU-23_3/KU-23_3_2.fq.gz
+KU-25_4:
+- KU-25_4/KU-25_4_1.fq.gz
+- KU-25_4/KU-25_4_2.fq.gz
+KU-27_2:
+- KU-27_2/KU-27_2_1.fq.gz
+- KU-27_2/KU-27_2_2.fq.gz
+KU-2_57:
+- KU-2_57/KU-2_57_1.fq.gz
+- KU-2_57/KU-2_57_2.fq.gz
+KU-31_46:
+- KU-31_46/KU-31_46_1.fq.gz
+- KU-31_46/KU-31_46_2.fq.gz
+KU-32_48:
+- KU-32_48/KU-32_48_1.fq.gz
+- KU-32_48/KU-32_48_2.fq.gz
+KU-33_52:
+- KU-33_52/KU-33_52_1.fq.gz
+- KU-33_52/KU-33_52_2.fq.gz
+KU-39_56:
+- KU-39_56/KU-39_56_1.fq.gz
+- KU-39_56/KU-39_56_2.fq.gz
+KU-4_72:
+- KU-4_72/KU-4_72_1.fq.gz
+- KU-4_72/KU-4_72_2.fq.gz
+MO23_ZA:
+- MO23_ZA/MO23_ZA_1.fq.gz
+- MO23_ZA/MO23_ZA_2.fq.gz
+MO25_ZA:
+- MO25_ZA/MO25_ZA_1.fq.gz
+- MO25_ZA/MO25_ZA_2.fq.gz
+MO27_ZA:
+- MO27_ZA/MO27_ZA_1.fq.gz
+- MO27_ZA/MO27_ZA_2.fq.gz
+MO28_ZA:
+- MO28_ZA/MO28_ZA_1.fq.gz
+- MO28_ZA/MO28_ZA_2.fq.gz
+MO29_ZA:
+- MO29_ZA/MO29_ZA_1.fq.gz
+- MO29_ZA/MO29_ZA_2.fq.gz
+MO30_ZA:
+- MO30_ZA/MO30_ZA_1.fq.gz
+- MO30_ZA/MO30_ZA_2.fq.gz
+MO32_ZA:
+- MO32_ZA/MO32_ZA_1.fq.gz
+- MO32_ZA/MO32_ZA_2.fq.gz
+MO33_ZA:
+- MO33_ZA/MO33_ZA_1.fq.gz
+- MO33_ZA/MO33_ZA_2.fq.gz
+MO34_ZA:
+- MO34_ZA/MO34_ZA_1.fq.gz
+- MO34_ZA/MO34_ZA_2.fq.gz
+MO35_ZA:
+- MO35_ZA/MO35_ZA_1.fq.gz
+- MO35_ZA/MO35_ZA_2.fq.gz
+MO41_ZA:
+- MO41_ZA/MO41_ZA_1.fq.gz
+- MO41_ZA/MO41_ZA_2.fq.gz
+MO42_ZA:
+- MO42_ZA/MO42_ZA_1.fq.gz
+- MO42_ZA/MO42_ZA_2.fq.gz
+MO43_ZA:
+- MO43_ZA/MO43_ZA_1.fq.gz
+- MO43_ZA/MO43_ZA_2.fq.gz
+MO44_ZA:
+- MO44_ZA/MO44_ZA_1.fq.gz
+- MO44_ZA/MO44_ZA_2.fq.gz
+MO45_ZA:
+- MO45_ZA/MO45_ZA_1.fq.gz
+- MO45_ZA/MO45_ZA_2.fq.gz
+MO46_ZA:
+- MO46_ZA/MO46_ZA_1.fq.gz
+- MO46_ZA/MO46_ZA_2.fq.gz
+MO47_ZA:
+- MO47_ZA/MO47_ZA_1.fq.gz
+- MO47_ZA/MO47_ZA_2.fq.gz
+MO48_ZA:
+- MO48_ZA/MO48_ZA_1.fq.gz
+- MO48_ZA/MO48_ZA_2.fq.gz
+MO49_ZA:
+- MO49_ZA/MO49_ZA_1.fq.gz
+- MO49_ZA/MO49_ZA_2.fq.gz
+MO50_ZA:
+- MO50_ZA/M050_ZA_1.fq.gz
+- MO50_ZA/M050_ZA_2.fq.gz
+NG-1_146:
+- NG-1_146/NG-1_146_1.fq.gz
+- NG-1_146/NG-1_146_2.fq.gz
+SF-1_42:
+- SF-1_42/SF-1_42_1.fq.gz
+- SF-1_42/SF-1_42_2.fq.gz
+SF-2_122:
+- SF-2_122/SF-2_122_1.fq.gz
+- SF-2_122/SF-2_122_2.fq.gz
+SF-3_49:
+- SF-3_49/SF-3_49_1.fq.gz
+- SF-3_49/SF-3_49_2.fq.gz
+SI-15_153:
+- SI-15_153/SI-15_153_1.fq.gz
+- SI-15_153/SI-15_153_2.fq.gz
+SI-18_138:
+- SI-18_138/SI-18_138_1.fq.gz
+- SI-18_138/SI-18_138_2.fq.gz
+SI-20_140:
+- SI-20_140/SI-20_140_1.fq.gz
+- SI-20_140/SI-20_140_2.fq.gz
+TH-17_125:
+- TH-17_125/TH-17_125_1.fq.gz
+- TH-17_125/TH-17_125_2.fq.gz
+TH-18_126:
+- TH-18_126/TH-18_126_1.fq.gz
+- TH-18_126/TH-18_126_2.fq.gz
+TH-22_127:
+- TH-22_127/TH-22_127_1.fq.gz
+- TH-22_127/TH-22_127_2.fq.gz
+TH-24_128:
+- TH-24_128/TH-24_128_1.fq.gz
+- TH-24_128/TH-24_128_2.fq.gz
+TH-25_129:
+- TH-25_129/TH-25_129_1.fq.gz
+- TH-25_129/TH-25_129_2.fq.gz
+TH-27_69:
+- TH-27_69/TH-27_69_1.fq.gz
+- TH-27_69/TH-27_69_2.fq.gz
+TH-28_37:
+- TH-28_37/TH-28_37_1.fq.gz
+- TH-28_37/TH-28_37_2.fq.gz
+YM-10_200:
+- YM-10_200/YM-10_200_1.fq.gz
+- YM-10_200/YM-10_200_2.fq.gz
+YM-17_86:
+- YM-17_86/YM-17_86_1.fq.gz
+- YM-17_86/YM-17_86_2.fq.gz
+YM-18_73:
+- YM-18_73/YM-18_73_1.fq.gz
+- YM-18_73/YM-18_73_2.fq.gz
+YM-19_87:
+- YM-19_87/YM-19_87_1.fq.gz
+- YM-19_87/YM-19_87_2.fq.gz
+YM-1_193:
+- YM-1_193/YM-1_193_1.fq.gz
+- YM-1_193/YM-1_193_2.fq.gz
+YM-20_85:
+- YM-20_85/YM-20_85_1.fq.gz
+- YM-20_85/YM-20_85_2.fq.gz
+YM-2_194:
+- YM-2_194/YM-2_194_1.fq.gz
+- YM-2_194/YM-2_194_2.fq.gz
+YM-5_195:
+- YM-5_195/YM-5_195_1.fq.gz
+- YM-5_195/YM-5_195_2.fq.gz
+YM-6_196:
+- YM-6_196/YM-6_196_1.fq.gz
+- YM-6_196/YM-6_196_2.fq.gz
+YM-7_197:
+- YM-7_197/YM-7_197_1.fq.gz
+- YM-7_197/YM-7_197_2.fq.gz
+YM-8_198:
+- YM-8_198/YM-8_198_1.fq.gz
+- YM-8_198/YM-8_198_2.fq.gz
+YM-9_199:
+- YM-9_199/YM-9_199_1.fq.gz
+- YM-9_199/YM-9_199_2.fq.gz
+ZA-14_78:
+- ZA-14_78/ZA-14_78_1.fq.gz
+- ZA-14_78/ZA-14_78_2.fq.gz
+ZA-20_111:
+- ZA-20_111/ZA-20_111_1.fq.gz
+- ZA-20_111/ZA-20_111_2.fq.gz
+ZA-23_112:
+- ZA-23_112/ZA-23_112_1.fq.gz
+- ZA-23_112/ZA-23_112_2.fq.gz
+ZA-25_50:
+- ZA-25_50/ZA-25_50_1.fq.gz
+- ZA-25_50/ZA-25_50_2.fq.gz
+RY-1:
+- P15207_101_S212_L002_R1_001.fastq.gz
+- P15207_101_S212_L002_R2_001.fastq.gz
+RY-3:
+- P15207_102_S213_L002_R1_001.fastq.gz
+- P15207_102_S213_L002_R2_001.fastq.gz
+RY-4:
+- P15207_103_S214_L002_R1_001.fastq.gz
+- P15207_103_S214_L002_R2_001.fastq.gz
+RY-6:
+- P15207_104_S215_L002_R1_001.fastq.gz
+- P15207_104_S215_L002_R2_001.fastq.gz
+RY-7:
+- P15207_105_S216_L002_R1_001.fastq.gz
+- P15207_105_S216_L002_R2_001.fastq.gz
+HD-1:
+- P15207_106_S217_L002_R1_001.fastq.gz
+- P15207_106_S217_L002_R2_001.fastq.gz
+HD-2:
+- P15207_107_S218_L002_R1_001.fastq.gz
+- P15207_107_S218_L002_R2_001.fastq.gz
+HD-3:
+- P15207_108_S219_L002_R1_001.fastq.gz
+- P15207_108_S219_L002_R2_001.fastq.gz
+HD-5:
+- P15207_109_S220_L002_R1_001.fastq.gz
+- P15207_109_S220_L002_R2_001.fastq.gz
