@@ -1,0 +1,8 @@
+
+
+outmain: results
+ref: /home/genis/other/muskox/cleansheepmap/ref/GCF_002742125.1_Oar_rambouillet_v1.0_genomic_simpleheader.fna
+muskox: /home/patricia/muskox/vcf/sheepmap/merged_snps_highcov_10_3.bcf.gz 
+sheep: /home/patricia/muskox/vcf/sheepmap/Sheep_10_3.bcf.gz
+keep_samples: /home/genis/other/muskox/cleansheepmap/highdept_keep_changename.samples
+bed: /home/patricia/muskox/vcf/sheepmap/whitelist.bed
